@@ -1,0 +1,15 @@
+{
+  "name": "switch-to-already-opened-tab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "rinsuki <428rinsuki+git@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "zip": "rm -f dist.zip && zip dist.zip manifest.json $(find dist -type f)"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.91",
+    "typescript": "^3.7.3"
+  }
+}
